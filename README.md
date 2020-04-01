@@ -8,7 +8,7 @@ Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Se
 -RDKit<http://www.rdkit.org/docs/Install.html><br>
 -scikit-learn<br>
 -Keras<br>
-<a href="URL"></a><br>
+<a href="http://www.rdkit.org/docs/Install.html"></a><br>
 
 <h1>Usage</h1>
 i) preprocess data as input<br>
