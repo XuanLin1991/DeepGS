@@ -10,3 +10,8 @@ Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Se
 -Keras<br>
 
 <h1>Usage</h1>
+i) preprocess data as input<br>
+cd code<br>
+sh/bash preprocess.sh<br>
+ii) train the model<br>
+sh/bash run_tranining.sh<br>
