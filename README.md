@@ -16,3 +16,10 @@ sh/bash preprocess.sh<br>
 ii) train the model<br>
 sh/bash run_tranining.sh<br>
 
+<h1>Citation</h1>
+@article{xuan2020DeepGS,
+  title={DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction},
+  author={Xuan Lin, Kaiqi Zhao, Tong Xiao, Zhe Quan, Zhi-Jie Wang, Philip S. Yu},
+  journal={arXiv},
+  year={2020}
+}
