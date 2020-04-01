@@ -15,3 +15,4 @@ cd code<br>
 sh/bash preprocess.sh<br>
 ii) train the model<br>
 sh/bash run_tranining.sh<br>
+
