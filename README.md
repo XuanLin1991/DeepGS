@@ -16,12 +16,3 @@ Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Se
 (ii) train the model<br>
 &nbsp sh/bash run_tranining.sh<br>
 
-<h1>Citation</h1>
-Please cite our paper if you use this code in your own work:<br>
-<p>
-@article{xuan2020DeepGS,<br>
-&nbsp title={DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction},<br>
-&nbsp  author={Xuan Lin, Kaiqi Zhao, Tong Xiao, Zhe Quan, Zhi-Jie Wang, Philip S. Yu},<br>
-&nbsp  journal={arXiv},<br>
-&nbsp  year={2020}<br>
-}<br>
