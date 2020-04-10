@@ -5,7 +5,7 @@ Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Se
 
 <h1>Installation</h1>
 -Pytorch<br>
--[RDKit](https://www.rdkit.org/docs/Install.html)<br>
+-[RDKit](https://www.rdkit.org/docs/Install.html)
 -scikit-learn<br>
 -Keras<br>
 
