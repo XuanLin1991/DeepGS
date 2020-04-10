@@ -1,6 +1,6 @@
 <h1>DeepGS</h1>
 
-Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction. Please refer to our paper for detailed (ECAI 2020 will be held soon http://ecai2020.eu/)
+Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction. Please refer to our paper for detailed ([ECAI 2020](http://ecai2020.eu/) will be held soon )
 <img src="figure1.png" alt="The framework of DeepGS" />
 
 <h1>Installation</h1>
