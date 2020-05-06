@@ -24,12 +24,12 @@ python -r requirements.txt install
 (i) preprocess data as input<br>
 
 ```bash
-&nbsp cd code<br>
-&nbsp sh/bash preprocess.sh<br>
+cd code<br>
+sh/bash preprocess.sh<br>
 ```
 
 (ii) train the model<br>
 
 ```bash
-&nbsp sh/bash run_tranining.sh<br>
+sh/bash run_tranining.sh<br>
 ```
