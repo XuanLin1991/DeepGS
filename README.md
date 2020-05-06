@@ -9,6 +9,11 @@ git clone https://github.com/jacklin18/DeepGS
 cd DeepGS  
 python -r requirement.txt install
 '''
+```bash
+git clone https://github.com/safe-graph/DGFraud.git
+cd DGFraud
+python setup.py install
+```
 
 <h1>Requirements</h1>
 -Pytorch<br>
