@@ -8,7 +8,7 @@ Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Se
 ```bash
 git clone https://github.com/jacklin18/DeepGS.git  
 cd DeepGS  
-python -r requirements.txt install
+pip install -r requirements.txt
 ```
 
 <h1>Requirements</h1>
