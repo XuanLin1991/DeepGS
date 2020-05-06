@@ -39,11 +39,10 @@ sh/bash run_tranining.sh
 If you use the code of DeepGS, please cite the [paper](https://arxiv.org/abs/2003.13902) below:
 
 ```bash
-@article{Lin2020DeepGSDR,
+@article{lin2020deepgs,
   title={DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction},
-  author={Xuan Lin and Kaiqi Zhao and Tong Xiao and Zhe Quan and Zhi-Jie Wang and Philip S. Yu},
-  journal={ArXiv},
-  year={2020},
-  volume={abs/2003.13902}
+  author={Lin, Xuan and Zhao, Kaiqi and Xiao, Tong and Quan, Zhe and Wang, Zhi-Jie and Yu, Philip S},
+  journal={arXiv preprint arXiv:2003.13902},
+  year={2020}
 }
 ```
