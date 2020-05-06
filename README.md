@@ -17,7 +17,7 @@ pip install -r requirements.txt
 -Pytorch
 -RDKit
 -scikit-learn
--Keras<br>
+-Keras
 ```
 
 <h1>Usage</h1>
