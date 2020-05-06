@@ -12,15 +12,20 @@ python -r requirements.txt install
 ```
 
 <h1>Requirements</h1>
+
+```bash
 -Pytorch<br>
 -RDKit<br>
 -scikit-learn<br>
 -Keras<br>
+```
 
 <h1>Usage</h1>
+
+```bash
 (i) preprocess data as input<br>
 &nbsp cd code<br>
 &nbsp sh/bash preprocess.sh<br>
 (ii) train the model<br>
 &nbsp sh/bash run_tranining.sh<br>
-
+```
