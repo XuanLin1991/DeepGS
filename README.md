@@ -6,7 +6,7 @@ Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Se
 <h1>Installation</h1>
 
 ```bash
-git clone https://github.com/jacklin18/DeepGS  
+git clone https://github.com/jacklin18/DeepGS.git  
 cd DeepGS  
 python -r requirement.txt install
 ```
