@@ -4,16 +4,10 @@ Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Se
 <img src="figure1.png" alt="The framework of DeepGS" />
 
 <h1>Installation</h1>
-'''bash
+```bash
 git clone https://github.com/jacklin18/DeepGS  
 cd DeepGS  
 python -r requirement.txt install
-'''
-
-```bash
-git clone https://github.com/safe-graph/DGFraud.git
-cd DGFraud
-python setup.py install
 ```
 
 <h1>Requirements</h1>
