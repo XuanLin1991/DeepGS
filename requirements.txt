@@ -1,1 +1,4 @@
-s
+Pytorch
+RDKit
+scikit-learn
+Keras
