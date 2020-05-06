@@ -14,22 +14,22 @@ python -r requirements.txt install
 <h1>Requirements</h1>
 
 ```bash
--Pytorch<br>
--RDKit<br>
--scikit-learn<br>
+-Pytorch
+-RDKit
+-scikit-learn
 -Keras<br>
 ```
 
 <h1>Usage</h1>
-(i) preprocess data as input<br>
+(i) preprocess data as input
 
 ```bash
-cd code<br>
-sh/bash preprocess.sh<br>
+cd code
+sh/bash preprocess.sh
 ```
 
-(ii) train the model<br>
+(ii) train the model
 
 ```bash
-sh/bash run_tranining.sh<br>
+sh/bash run_tranining.sh
 ```
