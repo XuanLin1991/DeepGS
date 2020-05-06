@@ -33,3 +33,16 @@ sh/bash preprocess.sh
 ```bash
 sh/bash run_tranining.sh
 ```
+
+<h1>Citation</h1>
+If you use the code of DeepGS, please cite the [paper](https://arxiv.org/pdf/2003.13902.pdf) below:
+
+```bash
+@article{Lin2020DeepGSDR,
+  title={DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction},
+  author={Xuan Lin and Kaiqi Zhao and Tong Xiao and Zhe Quan and Zhi-Jie Wang and Philip S. Yu},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2003.13902}
+}
+```
