@@ -35,7 +35,7 @@ sh/bash run_tranining.sh
 ```
 
 <h1>Citation</h1>
-If you use the code of DeepGS, please cite the [paper](https://arxiv.org/pdf/2003.13902.pdf) below:
+If you use the code of DeepGS, please cite the [paper](https://arxiv.org/abs/2003.13902) below:
 
 ```bash
 @article{Lin2020DeepGSDR,
