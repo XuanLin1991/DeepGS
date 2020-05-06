@@ -22,11 +22,14 @@ python -r requirements.txt install
 
 <h1>Usage</h1>
 (i) preprocess data as input<br>
+
 ```bash
 &nbsp cd code<br>
 &nbsp sh/bash preprocess.sh<br>
 ```
-```bash
+
 (ii) train the model<br>
+
+```bash
 &nbsp sh/bash run_tranining.sh<br>
 ```
