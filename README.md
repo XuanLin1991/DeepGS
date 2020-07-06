@@ -1,6 +1,6 @@
 <h1>DeepGS</h1>
 
-Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction. Please refer to [our paper](https://arxiv.org/pdf/2003.13902.pdf) for detailed ([ECAI 2020](http://ecai2020.eu/) will be held soon )
+Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction. Please refer to [our paper](http://ecai2020.eu/papers/34_paper.pdf) for detailed ([ECAI 2020](http://ecai2020.eu/) will be held soon )
 <img src="figure1.png" alt="The framework of DeepGS" />
 
 <h1>Installation</h1>
@@ -41,6 +41,6 @@ If you use the code of DeepGS, please cite the [paper](https://arxiv.org/abs/200
 > @article{lin2020deepgs,  
       title   ={DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction},  
       author  ={Lin, Xuan and Zhao, Kaiqi and Xiao, Tong and Quan, Zhe and Wang, Zhi-Jie and Yu, Philip S},  
-      journal ={arXiv preprint arXiv:2003.13902},  
+      conference ={24th European Conference on Artificial Intelligence-ECAI 2020},  
       year    ={2020}  
   }
