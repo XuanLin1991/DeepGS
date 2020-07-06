@@ -36,7 +36,7 @@ sh/bash run_tranining.sh
 
 <h1>Citation</h1>
 
-If you use the code of DeepGS, please cite the [paper](https://arxiv.org/abs/2003.13902) below:
+If you use the code of DeepGS, please cite the [paper](http://ecai2020.eu/papers/34_paper.pdf) below:
 
 > @article{lin2020deepgs,  
       title   ={DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction},  
