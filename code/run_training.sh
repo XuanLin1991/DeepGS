@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATASET=davis
+DATASET=Davis
 # DATASET=celegans
 # DATASET=yourdata
 
