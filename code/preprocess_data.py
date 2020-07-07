@@ -100,7 +100,7 @@ if __name__ == "__main__":
     # DATASET, radius, ngram = 'human', 2, 2
     radius, ngram = map(int, [radius, ngram])
 
-    with open('../dataset/' + DATASET + '/original/input.txt', 'r') as f:
+    with open('../dataset/' + DATASET + '/input.txt', 'r') as f:
         data_list = f.read().strip().split('\n')
 
     """Exclude data contains '.' in the SMILES format."""
