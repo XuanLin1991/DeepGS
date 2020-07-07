@@ -320,7 +320,7 @@ if __name__ == "__main__":
         protein = f.read().strip().split('\n')
 
     """处理smile"""
-    with open('../dataset/' + DATASET + '/smile_n_gram.txt', 'r') as f:
+    with open('../dataset/' + '/smile_n_gram.txt', 'r') as f:
         smile = f.read().strip().split('\n')
 
     """Load preprocessed data."""
