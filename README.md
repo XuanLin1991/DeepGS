@@ -13,12 +13,12 @@ pip install -r requirements.txt
 
 <h1>Requirements</h1>
 
-```bash
+
 -Pytorch
--RDKit
+-[RDKit](http://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda)
 -scikit-learn
 -Keras
-```
+
 
 <h1>Usage</h1>
 (i) preprocess data as input
