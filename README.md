@@ -41,6 +41,6 @@ If you use the code of DeepGS, please cite the [paper](http://ecai2020.eu/papers
 > @article{lin2020deepgs,  
       title   ={DeepGS: Deep Representation Learning of Graphs and Sequences for Drug-Target Binding Affinity Prediction},  
       author  ={Lin, Xuan and Zhao, Kaiqi and Xiao, Tong and Quan, Zhe and Wang, Zhi-Jie and Yu, Philip S},  
-      conference ={24th European Conference on Artificial Intelligence-ECAI 2020},  
+      conference ={24th European Conference on Artificial Intelligence (ECAI)},  
       year    ={2020}  
   }
