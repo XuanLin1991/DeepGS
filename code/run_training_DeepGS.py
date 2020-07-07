@@ -316,7 +316,7 @@ if __name__ == "__main__":
         device = torch.device('cpu')
         print('The code uses CPU!!!')
     """处理蛋白质"""
-    with open('../dataset/' + DATASET + '/original/protein.txt', 'r') as f:
+    with open('../dataset/' + DATASET + '/protein.txt', 'r') as f:
         protein = f.read().strip().split('\n')
 
     """处理smile"""
