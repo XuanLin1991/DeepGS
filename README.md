@@ -14,10 +14,10 @@ pip install -r requirements.txt
 <h1>Requirements</h1>
 
 
--Pytorch
--[RDKit](http://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda)
--scikit-learn
--Keras
+* Pytorch
+* [RDKit](http://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda)
+* scikit-learn
+* Keras
 
 
 <h1>Usage</h1>
