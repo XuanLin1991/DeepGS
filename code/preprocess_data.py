@@ -105,7 +105,7 @@ if __name__ == "__main__":
 
     """Exclude data contains '.' in the SMILES format."""
     data_list = [d for d in data_list if '.' not in d.strip().split()[0]]
-    N = len(data_list)# 把所有含.的去掉了，不知道去掉的含义．
+    N = len(data_list)
 
     atom_dict = defaultdict(lambda: len(atom_dict))
     bond_dict = defaultdict(lambda: len(bond_dict))
@@ -131,7 +131,7 @@ if __name__ == "__main__":
         fingerprints = extract_fingerprints(atoms, i_jbond_dict, radius)
         compounds.append(fingerprints)
         
-        #GNN和GAT的这里是不一样的，即形成adjacency的方式不一样
+        # To generate adjacent matrix from GNN and GAT method
         adjacency = create_adjacency(mol)
 #         adjacency = create_edge_index(mol)
         adjacencies.append(adjacency)
