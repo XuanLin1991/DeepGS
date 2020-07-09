@@ -24,9 +24,9 @@ from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
 class CompoundProteinInteractionPrediction(nn.Module):
     def __init__(self):
         super(CompoundProteinInteractionPrediction, self).__init__()
-        # dim=10 有n_fingerprint个词，每个词是dim维．
+        # dim=10
         self.embed_fingerprint = nn.Embedding(n_fingerprint, dim)
-        #采用自定义的词向量
+        # predefined word embedding
         self.embed_word = nn.Embedding(10000, 100)
         self.embed_word.weight = nn.Parameter(torch.tensor(pro_embedding_matrix, dtype=torch.float32))
         self.embed_word.weight.requires_grad = True
@@ -35,7 +35,7 @@ class CompoundProteinInteractionPrediction(nn.Module):
         self.embed_smile.weight = nn.Parameter(torch.tensor(smi_embedding_matrix, dtype=torch.float32))
         self.embed_smile.weight.requires_grad = True
 
-        #定义了3层全连接层．
+        # define 3 dense layer
 #         self.W_gnn = nn.ModuleList([nn.Linear(dim, dim)
 #                                     for _ in range(layer_gnn)])
         #GCN
@@ -80,7 +80,7 @@ class CompoundProteinInteractionPrediction(nn.Module):
             xs = self.W_cnn[i](xs)
             xs = torch.relu(xs)
         xs = torch.squeeze(torch.squeeze(xs, 0), 0)
-#         去掉了Atteintion
+#         del Atteintion
 #         h = torch.relu(self.W_attention(x))
 #         hs = torch.relu(self.P_attention(xs))
 #         weights = torch.tanh(F.linear(h, hs))
@@ -121,12 +121,12 @@ class CompoundProteinInteractionPrediction(nn.Module):
 #         protein_vector = self.rnn(word_vectors, layer_cnn)
 
         """smile vector with attention-CNN."""
-        #增加了smile的word2vec特征
+        # add the feature of word embedding of SMILES string
         smile_vectors = self.embed_smile(smiles)
         after_smile_vectors = self.rnn(smile_vectors)
 
         """Concatenate the above two vectors and output the interaction."""
-        #三个特征concat
+        # concatenate with three types of features
         cat_vector = torch.cat((compound_vector, protein_vector, after_smile_vectors), 1)
         for j in range(layer_output):
             cat_vector = torch.relu(self.W_out[j](cat_vector))
@@ -226,7 +226,7 @@ def split_dataset(dataset, ratio):
 
 def w2v_pad(protein, maxlen_,victor_size):
 
-    #keras API把数据映射成向量并填充或截断
+    #keras API 
     tokenizer = text.Tokenizer(num_words=10000, lower=False,filters="　")
     tokenizer.fit_on_texts(protein)
     protein_ = sequence.pad_sequences(tokenizer.texts_to_sequences(protein), maxlen=maxlen_)
@@ -262,7 +262,7 @@ def w2v_pad(protein, maxlen_,victor_size):
 
 def smile_w2v_pad(smile, maxlen_,victor_size):
 
-    #keras API把数据映射成向量并填充或截断
+    #keras API
     tokenizer = text.Tokenizer(num_words=100, lower=False,filters="　")
     tokenizer.fit_on_texts(smile)
     smile_ = sequence.pad_sequences(tokenizer.texts_to_sequences(smile), maxlen=maxlen_)
@@ -315,11 +315,11 @@ if __name__ == "__main__":
     else:
         device = torch.device('cpu')
         print('The code uses CPU!!!')
-    """处理蛋白质"""
+    """processing protein sequence"""
     with open('../dataset/' + DATASET + '/proteins.txt', 'r') as f:
         protein = f.read().strip().split('\n')
 
-    """处理smile"""
+    """processing SMILES"""
     with open('../dataset/' + '/smile_n_gram.txt', 'r') as f:
         smile = f.read().strip().split('\n')
 
@@ -348,7 +348,7 @@ if __name__ == "__main__":
     n_fingerprint = len(fingerprint_dict)
     n_word = len(word_dict)
 
-    """数据预处理"""
+    """data preprocessing"""
     Y = np.asarray(Y)
     interactions = -(np.log10(Y / (math.pow(10, 9))))
     interactions = list(interactions)
