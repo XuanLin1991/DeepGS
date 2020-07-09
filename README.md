@@ -19,6 +19,9 @@ pip install -r requirements.txt
 * scikit-learn
 * Keras
 
+<h1>Data</h1>
+Please see the [DeepDTA](https://github.com/hkmztrk/DeepDTA) for detailed information.
+In order to train the DeepGS model, you must provide training data with each row contains a molecule (i.e., SMILES strings), a protein sequence (i.e., amino acids) and a label between the drug-target pair (i.e., binding affinity value).
 
 <h1>Usage</h1>
 (i) preprocess data as input
