@@ -13,15 +13,20 @@ pip install -r requirements.txt
 
 <h1>Requirements</h1>
 
-
 * [Pytorch](https://pytorch.org/)
 * [RDKit](http://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda)
 * scikit-learn
 * Keras
 
 <h1>Data</h1>
+
 Please see the [DeepDTA](https://github.com/hkmztrk/DeepDTA) for detailed information.
-In order to train the DeepGS model, you must provide training data with each row contains a molecule (i.e., SMILES strings), a protein sequence (i.e., amino acids) and a label between the drug-target pair (i.e., binding affinity value).
+In order to train the DeepGS model, you must provide training data with each row contains a molecule (i.e., SMILES strings), a protein sequence (i.e., amino acids) and a label between the drug-target pair (i.e., binding affinity value). For example: 
+
+```bash
+CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OCC(CC4=CC=CC=C4)N MKKFFDSRREQGGSGLGSGSSGGGGSTSGLG... 43.0
+...
+```
 
 <h1>Usage</h1>
 (i) preprocess data as input
