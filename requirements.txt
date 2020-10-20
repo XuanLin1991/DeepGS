@@ -1,4 +1,6 @@
-Pytorch
-RDKit
+pytorch=1.4.0
+rdkit=2019.09.3
 scikit-learn
-Keras
+keras=2.2.4
+numpy=1.18.2
+networkx=2.4
