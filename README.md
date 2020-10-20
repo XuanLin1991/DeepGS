@@ -6,6 +6,8 @@ Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Se
 <h1>Installation</h1>
 
 ```bash
+conda create -n deepgs python=3.7.6
+source activate deepgs
 git clone https://github.com/jacklin18/DeepGS.git  
 cd DeepGS  
 pip install -r requirements.txt
