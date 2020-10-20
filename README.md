@@ -17,6 +17,7 @@ pip install -r requirements.txt
 
 * [Pytorch](https://pytorch.org/)
 * [RDKit](http://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda)
+* [pytorch-geometric](https://github.com/rusty1s/pytorch_geometric)
 * scikit-learn
 * Keras
 
