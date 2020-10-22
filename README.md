@@ -4,12 +4,13 @@ Source Code Repository for DeepGS: Deep Representation Learning of Graphs and Se
 <img src="figure1.png" alt="The framework of DeepGS" />
 
 <h1>Installation</h1>
-We recommend to create a new environment.
+We recommend to create a new environment.  
+
 ```bash
 conda create -n deepgs python=3.7.6
 source activate deepgs
 ```
-DeepGS is implemented based on [Pytorch](https://pytorch.org/), [RDKit](http://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda) and [pytorch-geometric](https://github.com/rusty1s/pytorch_geometric).
+DeepGS is implemented based on [Pytorch](https://pytorch.org/), [RDKit](http://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda) and [pytorch-geometric](https://github.com/rusty1s/pytorch_geometric).  
 ```bash
 git clone https://github.com/jacklin18/DeepGS.git  
 cd DeepGS  
